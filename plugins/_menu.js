@@ -1,7 +1,7 @@
 const { izumi, mode ,sendMenu, sendSegMenu} = require("../lib/");
 izumi({
     pattern: "menu ?(.*)",
-    desc: "izumi-v3 user manual",
+    desc: "ROYAL-BOT-263 user manual",
     fromMe: mode,
     type: "user",
 }, async (message, match) => {
