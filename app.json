@@ -1,0 +1,92 @@
+{
+  "name": "ROYAL-BOT-263",
+  "description": "ROYAL-BOT-263 is a Multi Device WhatsApp bot",
+  "logo": "https://telegra.ph/file/06626ef7c51d90f3c19b8.jpg",
+  "keywords": ["whatsapp"],
+  "repository": "https://github.com/partso/ROYAL-BOT-263",
+  "website": "https://github.com/partso",
+  "success_url": "https://github.com/partso/ROYAL-BOT-263",
+  "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "Enter your session id",
+      "required": true
+    },
+    "HEROKU": {
+      "description": "Don't change this",
+      "required": true,
+      "value": "true"
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Heroku app name, same as above entered",
+      "required": true
+    },
+    "HEROKU_API_KEY": {
+      "description": "Heroku account API key, https://dashboard.heroku.com/account",
+      "required": true
+    },
+    "MENU_URL": {
+      "description": "Add URL of image or video",
+      "required": false,
+      "value": "https://telegra.ph/file/06626ef7c51d90f3c19b8.jpg"
+    },
+    "BOT_NAME": {
+      "description": "Enter your bot name",
+      "required": false,
+      "value": "♛ᴿᴼᵞᴬᴸ›™-263"
+    },
+    "STICKER_PACKNAME": {
+      "description": "Enter your sticker pack name",
+      "required": false,
+      "value": "♛ᴿᴼᵞᴬᴸ›™-263"
+    },
+    "AUDIO_DATA": {
+      "description": "Enter your audio data (title, author, link)",
+      "required": false,
+      "value": "enjoy this song, ♛ᴿᴼᵞᴬᴸ›™-263, https://telegra.ph/file/06626ef7c51d90f3c19b8.jpg"
+    },
+    "OWNER_NAME": {
+      "description": "Enter your name",
+      "required": false,
+      "value": "ROYAL"
+    },
+    "CAPTION": {
+      "description": "Enter your caption",
+      "required": false,
+      "value": ""
+    },
+    "PREFIX": {
+      "description": "Prefix for bot",
+      "required": false,
+      "value": "."
+    },
+    "AUTHOR": {
+      "description": "Enter sticker pack author name",
+      "required": false,
+      "value": "ROYAL"
+    },
+    "SUDO": {
+      "description": "Add Sudo number",
+      "required": false,
+      "value": "263785028126"
+    },
+    "MODE": {
+      "description": "Bot work type",
+      "required": true,
+      "value": "private"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku-community/apt"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
+}
