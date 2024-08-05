@@ -111,7 +111,7 @@ izumi(
               jpegThumbnail: Buffer.alloc(0)
             },
             title: `${title}`, 
-            description: "izumi", 
+            description: config.BOT_NAME, 
             currencyCode: "USD",
             priceAmount1000: "100000000//000", 
             retailerId: "Eypz",
@@ -133,10 +133,10 @@ izumi(
         quoted: eypz,
         contextInfo: {
           externalAdReply: {
-            title: "Izumi",
+            title: config.BOT_NAME,
             body: title,
-            sourceUrl: "https://github.com/partso/ROYAL-BOT-263",
-            mediaUrl: "https://github.com/partso/ROYAL-BOT-263",
+            sourceUrl: "https://github.com/sataniceypz/Izumi-v3",
+            mediaUrl: "https://github.com/sataniceypz/Izumi-v3",
             mediaType: 1,
             showAdAttribution: true,
             renderLargerThumbnail: true,
@@ -260,7 +260,7 @@ izumi(
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363298577467093@newsletter',
-            newsletterName: "♛ᴿᴼᵞᴬᴸ›™-263",
+            newsletterName: "ROYAL-BOT-263",
             serverMessageId: -1
           }
         }
@@ -284,4 +284,4 @@ function formatYouTubeMessage(videos) {
   });
 
   return message;
-  }
+                              }
