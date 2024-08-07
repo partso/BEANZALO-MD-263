@@ -11,6 +11,7 @@ const {
   ytv,
   ytsdl,
   parsedUrl,
+  Play
 } = require("../lib");
 const config = require("../config");
 
@@ -19,63 +20,10 @@ izumi(
     pattern: "play ?(.*)",
     fromMe: mode,
     desc: "Play YouTube video or audio",
-    type: "user",
+    type: "downloader",
   },
   async (message, match) => {
-    match = match || message.reply_message.text;
-    if (!match) {
-      await message.reply("🎵 *Give me a query to search* 🎵");
-      return;
-    }
-
-    try {
-      let { dlink, title, vid } = await ytsdl(match);
-      let buff = await getBuffer(dlink);
-
-      let data = {
-        jid: message.jid,
-        button: [
-          {
-            type: "reply",
-            params: {
-              display_text: " VIDEO",
-              id: `${PREFIX}video${match}`,
-            },
-          },
-          {
-            type: "reply",
-            params: {
-              display_text: " AUDIO",
-              id: `${PREFIX}song${match}`,
-            },
-          },
-          {
-            type: "url",
-            params: {
-              display_text: "🔗 YouTube",
-              url: `https://youtu.be/${vid}`,
-              merchant_url: `https://youtu.be/${vid}`,
-            },
-          },
-        ],
-        header: {
-          title: `${config.BOT_NAME} 🎶`,
-          subtitle: "Enjoy your media",
-          hasMediaAttachment: false,
-        },
-        footer: {
-          text: `Powered by ${config.OWNER_NAME}`,
-        },
-        body: {
-          text: `*${title}*\nChoose an option below to proceed:`,
-        },
-      };
-
-      await message.sendMessage(message.jid, data, {}, "interactive");
-    } catch (error) {
-      console.error("Error handling:", error);
-      await message.reply("*Error processing your request. Please try again later.*");
-    }
+await Play(message,match);
   }
 );
 
@@ -260,7 +208,7 @@ izumi(
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363298577467093@newsletter',
-            newsletterName: "ROYAL-BOT-263",
+            newsletterName: "Iᴢᴜᴍɪ-ᴠ3",
             serverMessageId: -1
           }
         }
@@ -284,4 +232,4 @@ function formatYouTubeMessage(videos) {
   });
 
   return message;
-                              }
+  }
