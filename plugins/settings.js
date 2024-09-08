@@ -15,12 +15,12 @@ const value = ["99000","88000","77000","660000","55000","44000","33000","22000",
 izumi({
     pattern: "sc$",
     fromMe: mode,
-    desc: "Royal-bot_263",
+    desc: "Ansh-Royal-bot_263",
     type: "info",
 }, async (message, match, client) => {
     var amount = value[Math.floor(Math.random() * value.length)];
     const amountInPaise = parseInt(amount, 10) * 1000;
-    const cap = "♛ᴿᴼᵞᴬᴸ›™\n\nRᴇᴘᴏ:https://github.com/partso/ROYAL-BOT-263\n\nSᴜᴘᴘᴏʀᴛ channel:https://whatsapp.com/channel/0029VaKjSra9WtC0kuJqvl0g\n\nLɪᴠᴇ Uꜱᴇʀꜱ Cᴏᴜɴᴛ:https://users.maskser.me";
+    const cap = "ᴀɴꜱʜ-♛ᴿᴼᵞᴬᴸ›™\n\nRᴇᴘᴏ:https://github.com/partso/ANSH-ROYAL-BOT-263\n\nSᴜᴘᴘᴏʀᴛ channel:https://whatsapp.com/channel/0029Vak01yaCBtxKXcPGu41t\n\nLɪᴠᴇ Uꜱᴇʀꜱ Cᴏᴜɴᴛ:https://users.maskser.me";
 
     await message.client.relayMessage(message.jid, {
         requestPaymentMessage: {
@@ -126,7 +126,7 @@ izumi({
 izumi({
     pattern: "support",
     fromMe: mode,
-    desc: "Royal-bot_263 Support",
+    desc: "Ansh-Royal-bot_263 Support",
     type: "info",
 }, async (message, match, client) => {
     try {
@@ -134,9 +134,9 @@ izumi({
         'VERSION:3.0\n' +
         'N:;;;;\n' +
         'FN:ROYAL263\n' +
-        'TEL;type=Mobile;waid=26376454555:+26376454555\n' +
-        "X-WA-BIZ-DESCRIPTION:Royal-bot_263, a multi-device WhatsApp bot.\n" +
-        'X-WA-BIZ-NAME:ROYAL263\n' +
+        'TEL;type=Mobile;waid=263710299896:+263710299896\n' +
+        "X-WA-BIZ-DESCRIPTION:Ansh-Royal-bot_263, a multi-device WhatsApp bot.\n" +
+        'X-WA-BIZ-NAME:ANSH-ROYAL263\n' +
         'END:VCARD';
 
         await client.sendMessage(message.jid, {
@@ -145,14 +145,14 @@ izumi({
             },
             contextInfo: { 
                 externalAdReply: {
-                    title: "Royal-bot_263 Sᴜᴘᴘᴏʀᴛ🧚‍♂️",
+                    title: "Ansh-Royal-bot_263 Sᴜᴘᴘᴏʀᴛ🧚‍♂️",
                     body: "Eypz",
-                    sourceUrl: "https://whatsapp.com/channel/0029VaKjSra9WtC0kuJqvl0g",
-                    mediaUrl: "https://whatsapp.com/channel/0029VaKjSra9WtC0kuJqvl0g",
+                    sourceUrl: "https://whatsapp.com/channel/0029Vak01yaCBtxKXcPGu41t",
+                    mediaUrl: "https://whatsapp.com/channel/0029Vak01yaCBtxKXcPGu41t",
                     mediaType: 1,
                     showAdAttribution: true,
                     renderLargerThumbnail: false,
-                    thumbnailUrl: "https://telegra.ph/file/06626ef7c51d90f3c19b8.jpg"
+                 thumbnailUrl: "https://telegra.ph/file/06626ef7c51d90f3c19b8.jpg"
                 }
             }
         });
