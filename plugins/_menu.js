@@ -1,7 +1,7 @@
 const { izumi, mode ,sendMenu, sendSegMenu, setMenuType } = require("../lib/");
 izumi({
     pattern: "menu ?(.*)",
-    desc: "ROYAL-BOT-263 user manual",
+    desc: "ANSH-BOT-263 user manual",
     fromMe: mode,
     type: "user",
 }, async (message, match) => {
@@ -9,7 +9,7 @@ izumi({
 });
 izumi({
     pattern: "setmenu ?(.*)",
-    desc: "izumi-v3 menu control panel",
+    desc: "ansh-v3 menu control panel",
     fromMe: true,
     type: "user",
 }, async (message, match) => {
