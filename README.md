@@ -1,7 +1,7 @@
 
 <a><img src='https://telegra.ph/file/06626ef7c51d90f3c19b8.jpg'/></a>
 
-## ROYAL-BOT-263 a simple Multi device Whatsapp Bot   
+## ANSH-ROYAL-BOT-263 a simple Multi device Whatsapp Bot   
 ### Setup 
 1. Get Session
    <br>
@@ -9,7 +9,7 @@
 
 2. Fork This Repository
    <br>
-<a href='https://github.com/partso/ROYAL-BOT-263/fork' target="_blank"><img alt='FORK' src='https://img.shields.io/badge/fork-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://github.com/partso/ANSH-ROYAL-BOT-263/fork' target="_blank"><img alt='FORK' src='https://img.shields.io/badge/fork-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=black&color=black'/></a>
 
 ### Heroku
 1. Create account on Heroku
@@ -97,4 +97,4 @@
 <a><img src='https://telegra.ph/file/06626ef7c51d90f3c19b8.jpg'/></a>
 
 #### THANKS TO
-- [ Mask-Ser💗](https://github.com/mask-sir) <br>
+- [ Ansh-GDS💗](https://github.com/ANSH-GDS) <br>
