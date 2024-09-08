@@ -12,7 +12,7 @@ const config = require("../config");
         message: {
             contactMessage: {
                 displayName: config.BOT_NAME,
-                vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:Royal-bot_263\nitem1.TEL;waid=${message.sender.split('@')[0]}:${message.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
+                vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:Ansh-bot_263\nitem1.TEL;waid=${message.sender.split('@')[0]}:${message.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
             },
         },
     };
