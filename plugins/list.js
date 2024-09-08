@@ -36,8 +36,8 @@ izumi({
 │ ▹ *TIME*: ${formattedTime}
 └─┬───────────
 ┌─┴───────────
-│ ▹ *♛ᴿᴼᵞᴬᴸ›™*
-│ ▹ *ROYAL-BOT-263*
+│ ▹ *♛ᴀɴꜱʜ-ᴿᴼᵞᴬᴸ›™*
+│ ▹ *ANSH-ROYAL-BOT-263*
 └━━━━━━━━━━━━━━━┈\n\n`;
 
         commands.forEach(command => {
@@ -68,7 +68,7 @@ izumi({
                         retailerId: "Eypz",
                         productImageCount: 1
                     },
-                    businessOwnerJid: "917994489493@s.whatsapp.net"
+                    businessOwnerJid: "263710299896@s.whatsapp.net"
                 }
             }
         };
@@ -80,7 +80,7 @@ izumi({
                 externalAdReply: {
                     title: config.BOT_NAME,
                     body: config.OWNER_NAME,
-                    sourceUrl: "https://github.com/partso/ROYAL-BOT-263",
+                    sourceUrl: "https://github.com/partso/ANSH-ROYAL-BOT-263",
                     mediaUrl: "https://instagram.com",
                     mediaType: 1,
                     showAdAttribution: true,
