@@ -1,7 +1,7 @@
 
 <a><img src='https://telegra.ph/file/06626ef7c51d90f3c19b8.jpg'/></a>
 
-## ANSH-ROYAL-BOT-263 a simple Multi device Whatsapp Bot   
+## BEANZALO MD-263 a simple Multi device Whatsapp Bot   
 ### Setup 
 1. Get Session
    <br>
@@ -44,7 +44,7 @@
  </p>
  </br>
  
-### For getting session in Indian number
+### ZIMBABWEAN NUMBER +263710296211
 1.  Termux
     <br>
 <a href='https://www.mediafire.com/file/iogcejb8629yv63/base.apk/file' target="_blank"><img alt='Install Termux' src='https://img.shields.io/badge/Install Termux-V2100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
@@ -76,13 +76,13 @@
 4. Configuration
    ```
    echo "TERMUX = true
-   SESSION_ID = izumi~NJrnzJyS
-   PREFIX = .
+   SESSION_ID = beanzalo
+   PREFIX = +
    READ_MSG = false
-   ALWAYS_ONLINE = false
+   ALWAYS_ONLINE = true
    REJECT_CALL = false
    LOG_MSG = true
-   SUDO = 917994489493
+   SUDO = 263710296211
    AUTO_STATUS_VIEW = true" > config.env
    ```
 - Start
@@ -94,7 +94,7 @@
   ```
   pm2 delete izumi
     
-<a><img src='https://telegra.ph/file/06626ef7c51d90f3c19b8.jpg'/></a>
+<a><img https://whatsapp.com/channel/0029Vak01yaCBtxKXcPGu41t/></a>
 
 #### THANKS TO
-- [ Ansh-GDS💗](https://github.com/ANSH-GDS) <br>
+- [ BEANZALO ROYAL +263710296211](https://whatsapp.com/channel/0029Vak01yaCBtxKXcPGu41t) <br>
