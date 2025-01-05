@@ -1,7 +1,7 @@
 
 <a><img src='https://telegra.ph/file/06626ef7c51d90f3c19b8.jpg'/></a>
 
-## BEANZALO MD-263 a simple Multi device Whatsapp Bot   
+## ROYAL BOY-263 a simple Multi device Whatsapp Bot   
 ### Setup 
 1. Get Session
    <br>
@@ -76,7 +76,7 @@
 4. Configuration
    ```
    echo "TERMUX = true
-   SESSION_ID = beanzalo
+   SESSION_ID = ROYAL BOY 263
    PREFIX = +
    READ_MSG = false
    ALWAYS_ONLINE = true
@@ -97,4 +97,4 @@
 <a><img https://whatsapp.com/channel/0029Vak01yaCBtxKXcPGu41t/></a>
 
 #### THANKS TO
-- [ BEANZALO ROYAL +263710296211](https://whatsapp.com/channel/0029Vak01yaCBtxKXcPGu41t) <br>
+- [  ROYAL BOT 263 +263710296211](https://whatsapp.com/channel/0029Vak01yaCBtxKXcPGu41t) <br>
