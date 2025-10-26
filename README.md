@@ -1,7 +1,7 @@
-
+#WELCOME TO ROYAL BRIGHT MINDS BOT 
 <a><img src='https://telegra.ph/file/06626ef7c51d90f3c19b8.jpg'/></a>
 
-## ROYAL BOY-263 a simple Multi device Whatsapp Bot   
+## ROYAL BRIGHT-MINDS a simple Multi device Whatsapp Bot   
 ### Setup 
 1. Get Session
    <br>
@@ -36,7 +36,7 @@
 
 2. Deploy on Render
    <br>
-<a href='https://dashboard.render.com/blueprint/new?repo=https://github.com/partso/ROYAL-BOT-263' target="_blank"><img alt='Deploy' src='https://img.shields.io/badge/-Deploy-black?style=for-the-badge&logo=Render&logoColor=white'/></a>
+<a href='https://dashboard.render.com/blueprint/new?repo=https://github.com/partso/ROYAL-BRIGHT-MINDS' target="_blank"><img alt='Deploy' src='https://img.shields.io/badge/-Deploy-black?style=for-the-badge&logo=Render&logoColor=white'/></a>
 
 3. Tutorial
    <br>
@@ -71,18 +71,18 @@
    ```
 2. installation
    ```
-   git clone https://github.com/partso/ROYAL-BOT-263
-   cd ROYAL-BOT-263
+   git clone https://github.com/partso/ROYAL BRIGHT MINDS
+   cd ROYAL BRIGHT MINDS
 4. Configuration
    ```
    echo "TERMUX = true
-   SESSION_ID = ROYAL BOY 263
+   SESSION_ID = ROYAL BRIGHT MINDS
    PREFIX = +
    READ_MSG = false
    ALWAYS_ONLINE = true
    REJECT_CALL = false
    LOG_MSG = true
-   SUDO = 263710296211
+   SUDO = ROYAL BRIGHT MINDS
    AUTO_STATUS_VIEW = true" > config.env
    ```
 - Start
@@ -97,4 +97,4 @@
 <a><img https://whatsapp.com/channel/0029Vak01yaCBtxKXcPGu41t/></a>
 
 #### THANKS TO
-- [  ROYAL BOT 263 +263710296211](https://whatsapp.com/channel/0029Vak01yaCBtxKXcPGu41t) <br>
+- [  ROYAL BRIGHT MINDS]() <br>
